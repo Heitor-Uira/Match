@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+ <head>
+   <meta charset="utf-8">
+
+   <meta name="viewport" content="width=device-width,initial-scale=1"/>
+   <title>Chapéuzinho Amarelo</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+   <meta name="description" content="Chapéuzinho Amarelo é um livro infantil criado por Chico Buarque e ilustrado por Ziraldo." />
+ </head>
+  <body>
+    <header>
+      <h2 class = "Título">Blog</h2>
+       <h1 class = "Título" id = "título">LivrosMatch</h1>
+        <a id = 'Link' href = 'index.html'>Voltar ao título principal</a>
+     <h2 id = "special">Este divertido e engraçado livro foi escrito por <b onclick = "amanha()">Chico Buarque</b> e ilustrado por <b onclick = "panela()">Ziraldo.</b></h2>  
+    </header>
+     <main>
+     <h2 class = "subtítulo">Sobre o Livro</h2> 
+      <p>Chapéuzinho Amarelo é uma menina que tem medo de tudo, por isso ela não faz quase nada.</p>
+       <table>
+         <tr>
+           <td id = "tchan">"Tinha medo de trovão.<br>
+             Minhoca para ela era cobra.<br>
+             E nunca apanhava sol, porque tinha medo da sombra."</td>
+         </tr>
+       </table>
+      <p>E de todos os medos que tinha, o medo mais medonho era o medo do <b>LOBO.</b></p>
+       <table>
+         <tr>
+           <td>"Um LOBO que nunca se via,<br>
+           que morava lá pra longe,<br>
+           do outro lado da montanha,<br>
+           num buraco da Alemanha,<br>
+           cheio de teia de aranha,<br>
+           numa terra tão estranha,<br>
+           que vai ver que o tal do LOBO<br>
+           nem existia."</td>
+         </tr>
+       </table>
+     </main>
+      <footer>
+    <h2 class = "subtítulo">Minha Experiência com o Livro</h2>
+      <p>As ilustrações de Ziraldo combinam perfeitamente com a história de Chico Buarque.</p>  
+      <p>É um livro muito poético e divertido de ler!</p>
+      <p>Se você tem filhos, recomendo muito dar esse livro para eles!</p>   
+      </footer>
+  </body>
+       <script src = "javascript.js"></script>
+        <style>
+         body{
+           background:url("https://st3.depositphotos.com/9881654/36104/i/450/depositphotos_361047412-stock-photo-deep-forest-fantasy-backdrop-concept.jpg");
+           background-size:cover;
+           background-repeat:no-repeat;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width: 100%;
+           }
+         h2{
+           font-size:35px;
+           font-family:'Courier New', Courier, monospace;
+           color:white;
+           text-align:center;
+         }
+          .Título {
+           text-align:center;
+           font-family:Helvetica, sans-serif;      
+          } 
+          #título {
+           color:#9e232f;
+          }
+          p{
+            color:#FFFFFF;
+            font-size:23px;
+            text-align:center;
+          }
+          td {
+            color:#fcf803;
+            font-size:30.9px;
+            font-style:oblique;
+            text-align:center;
+          }
+          a {
+            color:#5ed44e;
+            font-family:Baskerville Old Face, Times New Roman, serif;
+           }
+           a:hover{
+           color:#9629cc;
+           font-family:Helvetica, Arial, sans-serif;
+           }
+          img {
+          border:10px solid #0bfc03;
+          display:flexbox;
+          text-align:right; 
+          }
+          .subtítulo{
+            color:#031cfc;
+            font-size:40px;
+            text-align:center;
+          }
+          footer{
+            text-align:center;
+            font-size:30px;
+            color:white;
+          }
+          #special{
+            color:#f24461;
+            font-size:30px;
+           text-align:center;
+          }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+ 
+ 
+       </style>
+</html>
