@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Blog LivrosMatch</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta name="description" content="É um blog que junta livros de todos os gêneros e fala sobre eles.
+    Este livro foi criado por Heitor Uirá, e Ananda Canto Fontes, Bárbara Kathleen e Gustavo Henrique deram pitaco." />
+</head>
+
+<body>
+  <header onclick="fds()">
+    <h2 class="Título">Blog</h2>
+    <h1 class="Título" id="título">LivrosMatch</h1>
+    <div id=introdução>
+      <h2>Bom dia, boa tarde ou boa noite para você!</h3>
+        <h3>Este é o <em>Livros Match</em>, um blog feito para os devoradores de livros, que buscam um livro adequado
+          aos interreses e gostos pessoais de cada um. </h3>
+        <h3>Aqui temos romances clichés, terrores de Poe e Nesbit, clássicos de Machado de Assis e, até, livros infantis
+          para as crianças curiosas.</h3>
+        <h3 id="slogan" onclick=tzuei()>O que você procurar, aqui você vai encontrar!</h3>
+    </div>
+  </header>
+  <main>
+    <table>
+      <tr>
+        <th>Infantil</th>
+      </tr>
+      <tr>
+        <td><a href="mizu.html">
+            <img id="mizu" src="https://m.media-amazon.com/images/I/81L05c3eodL._AC_UF1000,1000_QL80_.jpg" height="350"
+              width="250"></a></td>
+        <td>
+          <h4>Um livro infantil sobre uma Estranha Madame Mizu que mora no andar de cima.</h4>
+        </td>
+      </tr>
+      <tr>
+        <th id="terror">Terror</th>
+      </tr>
+      <tr>
+        <td><a href="https://heitor-uira.github.io/LivrosMatch/baskerville.html"><img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsDAxC5TmjX1qxp0gtR6QoQT_nfwVY9b9DsA&s"
+              id="baskerville" height="350" width="250" ></a></td>
+        <td>
+          <h4>Um livro de horror sobre um macabro cão que assola a família Baskerville.</h4>
+        </td>
+      </tr>
+      <tr>
+        <th id="brasileiro">Brasileiro</th>
+      </tr>
+      <td><a href="https://heitor-uira.github.io/LivrosMatch/chapeu_amarelo.html "><img
+            src="https://m.media-amazon.com/images/I/91IqsZ7CaNL._AC_UF1000,1000_QL80_.jpg" id="conto_escola"
+            height="350" width="350"></a></td>
+      <td>
+        <h4>Um livro sobre uma menina com medo de tudo.</h4>
+      </td>
+      <tr>
+      <th id = "trolei">Famosos</th>
+      </tr>
+      <tr>
+        <td><a href = "https://heitor-uira.github.io/LivrosMatch/harry.html"><img src = "https://m.media-amazon.com/images/I/81ibfYk4qmL._AC_UF1000,1000_QL80_.jpg" id = "potter" height="350" width="250">
+        </td>
+        <td>
+          <h4> Um livro sobre um jovem bruxo descobrindo um mundo inteiro novo.</h4>
+        </td>
+      </tr>
+    </table>
+  </main>
+  <footer>
+  </footer>
+  <script src="javascript.js">
+  </script>
+</body>
+<style>
+  body {
+    background:url("https://wallpapercave.com/uwp/uwp3780322.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #mizu {
+    border: 8.5px solid #d4f03a;
+    background-color: #d4f03a;
+  }
+
+  a {
+    text-size: 7.8px;
+    font-family: Courier New, Courier, monospace;
+    color: #e3524f;
+  }
+
+  a:hover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #a83634;
+  }
+
+  #baskerville {
+    border: 10px solid #8c1816;
+    background-color: #8c1816;
+  }
+
+  #conto_escola {
+    border: 10px solid #fcba03;
+    background-color: #fcba03;
+  }
+     #potter {
+     border: 10px solid #281cd6;
+    background-color: #281cd6;
+   }
+
+  h6 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+
+  .Título {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+  }
+
+  #título {
+    color: #9e232f;
+  }
+
+  #introdução {
+    font-family: 'Franklin Gothic Medium', Times New Roman, serif;
+  }
+
+  #slogan {
+    font-family: Monaco, monospace;
+    color: #5cd442;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  th {
+    color: #5f3d7a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #terror {
+    color: #faf9f7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  #brasileiro {
+    color: #61c454;
+    font-family: Futura, serif;
+    font-size: 20px;
+  }
+  #trolei {
+   color: #f20a29;
+    font-family: Courier New, monospace;
+    font-size: 20px; 
+  }
+  h4 {
+    font-size: 25.6px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+</style>
+
+</html>
