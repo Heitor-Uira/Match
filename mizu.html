@@ -142,10 +142,12 @@
       text-align:center;
       font-family:Andalé Mono, monospace; 
      }
-     main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @media (min-width: 600px) {
+
+      main {
+      width: 100%;
+      flex-wrap: nowrap;
+      }
    }
 </style>
 </html>
