@@ -24,6 +24,9 @@ function tzuei(){
 function kk() {
   alert("Pitaco: Bárbara Canto e Gustavo Fontes")
 }
+function secreto() {
+  var pedido = confirm(<em>"Você promete manter isso em segredo?"</em>)
+}
 function fds(){
   var k = prompt("Insira um número:")
   var l = Math.sqrt(k)
