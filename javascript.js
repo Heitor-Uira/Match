@@ -1,3 +1,13 @@
+function alerta(){
+  var k = confirm('Você vai manter isso em segredo?')
+  
+   if (k == true){
+    alert('Que bom que vai!😉')
+   }
+   else {
+    window.location.href = "index.html"
+   }
+}
 function oxe(){
  var k = document.getElementById("img")
  k[0].src = "https://s.dicio.com.br/obrigado.jpg" 
