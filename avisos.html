@@ -14,10 +14,10 @@
    <h2 class = "titulo">Blog</h2>
     <h1 class = "titulo">Livros Match</h1>
       <a href = "https://heitor-uira.github.io/Match/index.html">Voltar à página principal</a>
-      <a id = "avisos" href = "https://heitor-uira.github.io/Match/aviso_secreto.html"><br><br><br>QUADRO DE AVISOS</a>
+       <h3 id="avisos" onclick=segredo()>QUADRO DE AVISOS</h3>
   </header>
    <main>
-     <h3>Olá, essa página é um quadro de avisos <em>(como deu pra ver no título)</em><br>
+       <h3>Olá, essa página é um quadro de avisos <em>(como deu pra ver no título)</em><br>
      Então, qualquer aviso vai aqui, com sua data e razão.<br>
      Fique atento!</h3>
       <table>
@@ -32,7 +32,33 @@
   
   
 </body>
-
+<script>
+  function segredo(){
+    var k = prompt("Qual é a protagonista de A Estranha Madame Mizu?");
+    if (k == "Zoé"){
+      window.location.href = "aviso_secreto.html"
+    }
+    else {
+      if (k == "Zoe"){
+        window.location.href = "aviso_secreto.html"
+      }
+      else{
+        if (k == "zoé"){
+          window.location.href = "aviso_secreto.html"
+        }
+        else {
+          if (k == "zoe"){
+            window.location.href = "aviso_secreto.html"
+          }
+          else{
+            alert('Errou!')
+          }
+        }
+      }
+      
+    }
+  }
+</script>
 <style>
   body {
     background: url(https://wallpapercave.com/uwp/uwp3780322.jpeg);
