@@ -24,6 +24,7 @@
 <p>Como você pode notar, ela meio bagunçadinha mas, finje que não tá vendo tá bom?</p>
 <p>Aqui não tem nada demais não, só algo assim por dentro das minhas páginas, mas só tem isso mesmo.</p>
 <img src="https://static.wikia.nocookie.net/delta-rune/images/8/82/S%C3%ADmbolo_Deltarune.jpg/revision/latest?cb=20190617225445&path-prefix=es">
+<h3>Ah é, eu gosto dessa bagaço aqui.</h3>
 </main>
 </body>
 </html>
